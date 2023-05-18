@@ -72,29 +72,53 @@
       
     // }
     //---------------------------------------------------------------------------------------------------
-    public class MyApp {
+    //switch 文による条件分岐
+    // public class MyApp {
       
-      public static void main(String[] args) {
+    //   public static void main(String[] args) {
         
-        String signal = "pink";
-        switch (signal) {
+    //     String signal = "pink";
+    //     switch (signal) {
           
-          case "red":
-          System.out.println("Stop!!");
-          break;
-          case "blue":
-          case "green":
-          System.out.println("Go!!");
-          break;
-          case "yellow":
-          System.out.println("caution!!");
-          break;
-          default:
-          System.out.println("wrong signal...");
-          break;
+    //       case "red":
+    //       System.out.println("Stop!!");
+    //       break;
+    //       case "blue":
+    //       case "green":
+    //       System.out.println("Go!!");
+    //       break;
+    //       case "yellow":
+    //       System.out.println("caution!!");
+    //       break;
+    //       default:
+    //       System.out.println("wrong signal...");
+    //       break;
           
-        }
+    //     }
         
-      }
+    //   }
       
-    }
+    // }
+    //------------------------------------------------------------------------------------------------------------
+    
+    //while で繰り返し処理する方法
+    // public class MyApp {
+      
+    //   public static void main(String[] args) {
+        
+    //     int i = 9;
+    //.  whileの場合は前処理の為int i =１０の場合なにも表示されない
+    //     while(i < 10) {
+    //       System.out.println(i);
+    //       i++;
+    //     }
+    //.  do whileの場合は後処理の為int i = 10の場合１０が表示される
+    //     do {
+    //       System.out.println(i);
+    //       i++;
+    //     } while(i < 10);
+        
+    //   }
+      
+    // }
+    //-----------------------------------------------------------------------------------------------------------------
