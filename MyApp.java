@@ -72,3 +72,29 @@
       
     // }
     //---------------------------------------------------------------------------------------------------
+    public class MyApp {
+      
+      public static void main(String[] args) {
+        
+        String signal = "pink";
+        switch (signal) {
+          
+          case "red":
+          System.out.println("Stop!!");
+          break;
+          case "blue":
+          case "green":
+          System.out.println("Go!!");
+          break;
+          case "yellow":
+          System.out.println("caution!!");
+          break;
+          default:
+          System.out.println("wrong signal...");
+          break;
+          
+        }
+        
+      }
+      
+    }
