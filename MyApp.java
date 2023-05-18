@@ -1,13 +1,13 @@
-public class MyApp {
+// public class MyApp {
   
-  public static void main(String[] args) {
+//   public static void main(String[] args) {
     
-    String msg = "Hello World Again!";
+//     String msg = "Hello World Again!";
     
-    System.out.println(msg);
-  }
+//     System.out.println(msg);
+//   }
   
-}
+// }
     // 変数
     // 型　変数名
     // String msg;
@@ -39,3 +39,36 @@ public class MyApp {
     //                                               スコアが80以上だったら？Great!! 他は so so...
     //----------------------------------------------------------------------------------------------
     
+// public class MyApp {
+//       public static void main(String[] args) {
+//         //if
+//         int score = 95;
+//         if (score > 80) {
+//           System.out.println("Great!!");
+//         } else if (score > 60) {
+//           System.out.println("Good!!");
+//         } else {
+//           System.out.println("so so...");
+//         }
+        
+//     }
+// }
+    //-----------------------------------------------------------------------------------
+    //条件分岐（短縮しない書き方はRailsに似ている）
+    //条件演算子の短縮した書き方→　（例）String msg = score > 80 ? "Great!!" : "so so ...";
+    //                                               スコアが80以上だったら？Great!! 他は so so...↓
+    //----------------------------------------------------------------------------------------------
+    
+    // public class MyApp {
+      
+      
+    //   public static void main(String[] args) {
+        
+    //     int score = 50;
+    //     String msg = score > 80 ? "Great!!" : "so so...";
+    //     System.out.println(msg);
+        
+    //   }
+      
+    // }
+    //---------------------------------------------------------------------------------------------------
