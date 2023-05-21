@@ -124,20 +124,39 @@
     //-----------------------------------------------------------------------------------------------------------------
     
     //for で繰り返し処理する方法
-     public class MyApp {
+    //  public class MyApp {
          
-         public static void main(String[] args) {
+    //      public static void main(String[] args) {
              
-             for(int i = 0; i < 10; i++) {
-                 if(i == 5) {
-                     //break;//処理をやめる
-                     continue;//条件の処理を行わずに次のループに移る
-                 }
-             System.out.println(i);
+    //          for(int i = 0; i < 10; i++) {
+    //              if(i == 5) {
+    //                  //break;//処理をやめる
+    //                  continue;//条件の処理を行わずに次のループに移る
+    //              }
+    //          System.out.println(i);
                  
-             }
+    //          }
              
              
-         }
+    //      }
          
-     }
+    //  }
+     
+    //------------------------------------------------------------------------------------------------------------------------
+    
+    //配列について
+    public class MyApp {
+        
+        
+        public static void main(String[] args) {
+            // int[] sales;
+            // sales = new int[] {100, 200, 300};
+            int[] sales = {100, 200 , 300};
+            
+            System.out.println(sales[1]);
+            
+            
+        }
+        
+    }
+     
